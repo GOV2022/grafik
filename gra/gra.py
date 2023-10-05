@@ -9,3 +9,4 @@ x, y = np.meshgrid(x,y)
 z = x * np.sin(y) + np.sin(x) * y
 ax.plot_surface(x, y, z, color = 'limegreen')
 plt.show()
+#
